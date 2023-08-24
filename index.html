@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+    <link
+      rel="shortcut icon"
+      href="./icons/Natali Logo.ico"
+      type="image/x-icon" />
+    <title>Portfolio AN</title>
+  </head>
+  <body id="body">
+    <header class="header">
+      <div class="logo">
+        <img
+          src="/images/Logo Natali.png"
+          alt="logo"
+          width="120px"
+          height="120px" />
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#sobre-mi">Sobre Mí</a></li>
+          <li><a href="#tecnologias">Tecnologías</a></li>
+          <li><a href="#proyectos">Proyectos</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="btn-inicio">
+      <a href="#inicio"><button class="btn-InicioStyle">^</button></a>
+    </div>
+    <main class="main">
+      <section class="inicio" id="inicio">
+        <h1>Bienvenido a mi Portfolio</h1>
+        <p>
+          ¡Hola! Soy <strong>Agustin Natali</strong> y este es mi portfolio.
+        </p>
+        <p>Puedes ver mi Curriculum presionando aqui!</p>
+        <a
+          href="https://drive.google.com/file/d/1-xjzEop0wgVaQERVdWStvOeXATwZj5Q5/view?usp=drive_link"
+          target="_blank"
+          ><button class="btn-custom">Ver</button></a
+        >
+        <div class="mifoto"></div>
+      </section>
+
+      <section class="sobre-mi" id="sobre-mi">
+        <h2>Sobre Mí</h2>
+        <p>
+          -Hola, me encuentro cursando la carrera de Tecnicatura en Programación
+          en la UTN San Nicolas, tengo muchas ganas de aprender sobre
+          tecnologias nuevas y seguir desarrollando sobre las que ya poseeo
+          conocimiento.
+        </p>
+      </section>
+
+      <section></section>
+
+      <section class="tecnologias" id="tecnologias">
+        <h2>Tecnologías</h2>
+        <ul class="lista-tecnologias">
+          <li>
+            <img src="./images/HTML5.png" alt="html" width="100px" />
+          </li>
+          <li>
+            <img src="./images/CSS3.png" alt="css3" width="100px" />
+          </li>
+          <li>
+            <img src="./images/Csharp.png" alt="csharp" width="100px" />
+          </li>
+          <li>
+            <img src="./images/JavaScript.png" alt="js" width="100px" />
+          </li>
+          <li>
+            <img src="./images/SQL.png" alt="sql" width="100px" />
+          </li>
+          <li>
+            <img src="./images/Git.png" alt="git" width="100px" />
+          </li>
+        </ul>
+      </section>
+
+      <section class="proyectos" id="proyectos">
+        <h2>Proyectos</h2>
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="./images/Cinehub.png" alt="Cinehub" />
+              <h3>Cinehub</h3>
+            </div>
+            <div class="swiper-slide">
+              <img src="./images/Memorama.png" alt="Memorama" />
+              <h3>Memorama</h3>
+            </div>
+            <div class="swiper-slide">
+              <img src="./images/Reproductor.png" alt="" />
+              <h3>Reproductor de Musica en Csharp(En progreso)</h3>
+            </div>
+          </div>
+          <div class="swiper-button-next" style="color: white"></div>
+          <div class="swiper-button-prev" style="color: white"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+        <h3>Todos estos proyectos estan en mi Github</h3>
+      </section>
+    </main>
+    <footer class="footer">
+      <section class="contacto" id="contacto">
+        <h3>Contacto</h3>
+        <h4>Email : agustinnatali7@gmail.com</h4>
+        <a href="/pages/contacto.html"
+          ><button class="btn-custom">Formulario Contacto</button></a
+        >
+        <ul class="redes">
+          <a href="https://www.instagram.com/agusssnatali03/" target="_blank"
+            ><li><i class="fa-brands fa-instagram"></i></li
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/agustin-natali-b84091226/"
+            target="_blank"
+            ><li><i class="fa-brands fa-linkedin"></i></li
+          ></a>
+          <a
+            href="https://www.youtube.com/channel/UCMiW8VSLjHe8lwJGXUTgaxA"
+            target="_blank"
+            ><li><i class="fa-brands fa-youtube"></i></li
+          ></a>
+          <a href="https://www.facebook.com/agussss/" target="_blank"
+            ><li><i class="fa-brands fa-facebook"></i></li
+          ></a>
+          <a href="https://github.com/Agusss33" target="_blank"
+            ><li><i class="fa-brands fa-github"></i></li
+          ></a>
+        </ul>
+      </section>
+      <h3>&copy; 2023 Agustin Natali. Todos los derechos reservados.</h3>
+    </footer>
+  </body>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  <script src="./scripts/script.js"></script>
+</html>

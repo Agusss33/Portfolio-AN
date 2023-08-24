@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Bebas+Neue&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border-style: border-box;
+}
+
+body {
+    font-family: 'Abel', sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
+    user-select: none;
+    letter-spacing: 0.10px;
+}

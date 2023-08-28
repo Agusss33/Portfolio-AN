@@ -12,3 +12,87 @@ body {
     user-select: none;
     letter-spacing: 0.10px;
 }
+ /* HEADER AND NAVBAR STYLES */
+.header {
+    display: flex;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    justify-content: space-evenly;
+}
+nav{
+    display: flex;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav li:hover{
+    transform: translate(-0.05em, -0.05em);
+    box-shadow: 0px 2px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    padding-left: 2em;
+    user-select: none;
+    pointer-events: none;
+    animation: rotar 5s linear infinite;
+}
+
+.logo:hover{
+   cursor: pointer;
+}
+
+@keyframes rotar {
+    0% {
+        transform: rotatey(0deg);
+    }
+    100% {
+        transform: rotatey(360deg);
+    }
+}
+
+/* HEADER AND NAVBAR STYLES END */
+
+/* MAIN STYLES */
+
+.main{
+    background-color: rgb(67, 67, 67);
+    display: flex;  
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+ /* MAIN STYLES END */
+
+/* FOOTER STYLES */
+
+.footer{
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}

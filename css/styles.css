@@ -87,7 +87,6 @@ nav ul{
     display: none;
 }
 
-
   /* END NAV AND HEADER STYLES */
 
 /* H1, H2 , H3 , P , A STYLES */
@@ -286,7 +285,7 @@ section {
     height: 60%;
   }
 
-  .swiper-slide {
+.swiper-slide {
     text-align: center;
     font-size: 18px;
     background: black;
@@ -296,7 +295,7 @@ section {
     align-items: center;
   }
 
-  .swiper-slide img {
+.swiper-slide img {
     display: block;
     width: 100%;
     height: 100%;
@@ -320,7 +319,7 @@ section {
     }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 562px) {
 
     h1, h2 {
         font-size: 80px;
@@ -389,13 +388,13 @@ section {
     text-align: center;
   }
   .nav-ham li{
-        margin-bottom: 20px;
+        margin-bottom: 15px;
         margin-right: 100px;
-        margin-top: 10px;
+        margin-top: 5px;
    }
 
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 400px) {
     h1, h2 {
         font-size: 70px;
     }
@@ -414,8 +413,40 @@ section {
     .nav-ham{
         height: 40vh;
     }
-    body{
+   .lista-tecnologias{
+       grid-template-columns: repeat(2, 1fr);
+   }
+   .swiper{
+       width: 100%;
+       height: 100%;
+   }
+}
+
+@media screen and (max-width: 320px) {
+    h1, h2 {
+        font-size: 50px;
+    }
+    h3{
+        font-size: 10px;
+    }
+    p{
+        font-size: 30px;
+    }
+    a{
+        font-size: 10px;
+    }
+    .sobre-mi{
+        height: 170vh;
+    }
+    .nav-ham{
+        height: 50vh;
+    }
+    .lista-tecnologias{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .swiper{
         width: 100%;
+        height: 100%;
     }
 }
 

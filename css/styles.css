@@ -129,24 +129,24 @@ section {
     align-items: center;
     height: 95vh;
     justify-content: center;
-    margin: 0;
+    margin-bottom: 10px;
+    
 }
 
 .sobre-mi{
     display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: center;
+    flex-direction: column;
     padding-left: 30%;
     padding-right: 30%;
     height: 95vh;
+    justify-content: center;
 }
 
 .tecnologias{
     display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: center;
+    flex-direction: column;
     padding-left: 30%;
     padding-right: 30%;
     height: 95vh;
@@ -305,7 +305,7 @@ section {
 
   /* END SWIPER STYLES */
 
-  /* MEDIA QUERYS EVENTS */
+  /* MEDIA QUERYS EVENTS FOR WIDTH*/
 
 
 @media screen and (max-width: 1024px) {
@@ -393,7 +393,6 @@ section {
         margin-right: 100px;
         margin-top: 10px;
    }
-  
 
 }
 @media screen and (max-width: 320px) {
@@ -418,4 +417,16 @@ section {
     body{
         width: 100%;
     }
+}
+
+
+/* END MEDIA QUERYS EVENTS FOR WIDTH */
+
+
+/* MEDIA QUERYS EVENTS FOR HEIGHT */
+
+@media screen and (max-height: 800px){
+   body{
+      zoom: 80%;
+   }
 }

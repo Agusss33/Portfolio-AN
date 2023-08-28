@@ -7,17 +7,17 @@ document.addEventListener("DOMContentLoaded", function () {
 
     const nombre = document.getElementById("nombreUsuario").value;
     const email = document.getElementById("correo").value;
-    const contrasena = document.getElementById("contrasena").value;
+    const number = document.getElementById("number").value;
 
     const usuario = {
       nombre: nombre,
       email: email,
-      contrasena: contrasena,
+      numero: number,
     };
 
     localStorage.setItem("usuario", JSON.stringify(usuario));
 
-    mensaje.innerHTML = "Registro exitoso. Puedes iniciar sesión ahora.";
+    mensaje.innerHTML = "CONTACTO GUARDADO";
 
     registroForm.reset();
   });

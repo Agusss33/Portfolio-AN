@@ -90,9 +90,11 @@ nav ul{
 
 /* FOOTER STYLES */
 
-.footer{
+.footer {
     background-color: black;
     color: #fff;
     text-align: center;
-    padding: 1em;
+    padding: 1em 0;
+    bottom: 0;
+    width: 100%;
 }
